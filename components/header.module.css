@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.search {
+  max-width: 250px;
+  height: 35px;
+  width: 100%;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  border: 1px solid #d6d6d7;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-right: auto;
+}
+
+.search input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+.search svg {
+  height: 22px;
+}
+
+.notiIcon {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .headerContainer {
+    padding: 1rem 0rem;
+  }
+}
